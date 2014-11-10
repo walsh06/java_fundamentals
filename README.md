@@ -1,5 +1,7 @@
-java_fundamentals
-==================================
+=======
+Java Fundamentals
+=================
+
 Array3.java
 
 Write a program to simulate the lotto draw
