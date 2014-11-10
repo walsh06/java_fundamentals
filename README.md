@@ -1,5 +1,10 @@
 java_fundamentals
-=================
+==================================
+Array3.java
+
+Write a program to simulate the lotto draw
+
+==================================
 Array1.java
 
 Write a program that generates 100 dice rolls and counts how many times each number occurs
