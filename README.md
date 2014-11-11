@@ -1,7 +1,11 @@
 =======
 Java Fundamentals
 =================
+Bombs.java
 
+Write a program that will create a 2 dimensional array and that stores the locations of bombs in a minefield
+
+==================================
 Cards.java
 
 Write a program that will deal out 5 cards to a player
