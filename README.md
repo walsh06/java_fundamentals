@@ -2,6 +2,11 @@
 Java Fundamentals
 =================
 
+Cards.java
+
+Write a program that will deal out 5 cards to a player
+
+==================================
 Array3.java
 
 Write a program to simulate the lotto draw
