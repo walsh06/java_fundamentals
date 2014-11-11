@@ -4,10 +4,12 @@ public class Bombs
 {
 	public static void main(String[] args)
 	{
+		//declare variables
 		char[][] field;
 		int bombs, rows, columns, r, c;
 		Scanner in = new Scanner(System.in);
 
+		//take input for rows, columns and number of bombs
 		System.out.println("Enter number of rows");
 		rows = in.nextInt();
 
@@ -17,8 +19,10 @@ public class Bombs
 		System.out.println("Enter number of bombs");
 		bombs = in.nextInt();
 
+		//create array with parameters passed in
 		field = new char[rows][columns];
 
+		//loop through the array and set all spaces to #
 		for(int i = 0; i < rows; i++)
 		{
 			for(int j =0; j < columns; j++)
@@ -27,6 +31,8 @@ public class Bombs
 			}
 
 		}
+
+		//loop "bomb" times and add bombs at random positions in array
 		for(int i =0; i < bombs; i++)
 		{
 			r = (int)(Math.random()*rows);
@@ -35,6 +41,7 @@ public class Bombs
 			field[r][c] = 'B';
 		}
 
+		//print the field
 		for(int i = 0; i < rows; i++)
 		{
 			for(int j =0; j < columns; j++)
