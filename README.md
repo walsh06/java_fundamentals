@@ -1,6 +1,16 @@
 =======
 Java Fundamentals
 =================
+
+Blackjack.java
+
+Simple blackjack program that simulates one person playing blackjack
+- They have a hand of cards
+- Cards can only be played once
+- If they go over 21 they lose
+- Take input of Hit or stick each round
+
+==================================
 LottoMethod.java
 
 Write a program to simulate the lotto draw
