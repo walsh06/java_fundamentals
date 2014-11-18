@@ -1,6 +1,17 @@
 =======
 Java Fundamentals
 =================
+LottoMethod.java
+
+Write a program to simulate the lotto draw
+Use a method to check if a number has been drawn already
+
+==================================
+ArrayMethods.java
+
+Example of methods with different uses for arrays. Demonstrates 
+calling methods, return types and passing parameters
+==================================
 Bombs.java
 
 Write a program that will create a 2 dimensional array and that stores the locations of bombs in a minefield
