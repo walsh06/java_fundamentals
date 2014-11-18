@@ -7,6 +7,11 @@ Write a program to simulate the lotto draw
 Use a method to check if a number has been drawn already
 
 ==================================
+IntegerMethods.java
+
+Demonstrate common methods used with integers
+
+==================================
 ArrayMethods.java
 
 Example of methods with different uses for arrays. Demonstrates 
