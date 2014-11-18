@@ -65,4 +65,23 @@ public class ArrayMethods
 		return -1;
 	}
 
+	/**get the largest number in an array*/
+	public static int getLargest(int[] arr)
+	{
+		int largest = arr[0]
+
+		//loop through array
+		for(int i =0; i < arr.length; i++)
+		{
+			//if larget number is found
+			if(arr[i] > largest)
+			{
+				//update largest
+				largest = arr[i];
+			}
+		}
+		//return the largest number at the end
+		return largest;
+	}
+
 }
